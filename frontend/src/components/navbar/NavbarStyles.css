@@ -1,0 +1,29 @@
+.navbar-self {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+  padding-top: 0.9rem !important;
+  padding-bottom: 0.9rem !important;
+  background-color: rgba(34, 32, 32, 0.397);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+}
+
+.login {
+  margin-left: 45rem !important;
+  border: 1px !important;
+  border-color: black !important;
+  border-style: solid !important;
+  cursor: pointer;
+  transform: 0.3s ease-in;
+}
+
+.login:hover{
+    box-shadow: 0px 0px 3px 2px #363636c2;
+}
+
+.nav-content{
+    margin-top: 0.2rem;
+    font-size: larger;
+    font-weight: 500 !important;
+}

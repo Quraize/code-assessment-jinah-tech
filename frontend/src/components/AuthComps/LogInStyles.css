@@ -1,0 +1,77 @@
+.adminlogin-main-sec{
+    padding-top: 2%;
+    padding-left: 32%;
+    padding-right: 32%;
+    width: 100%;
+    height: 80vh;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+}
+
+.adminlogin-self-heading{
+    width: 100%; 
+    font-size: 40px;
+    font-weight: 700; 
+    color: #1723aa;
+    padding-bottom: 1rem;
+    text-shadow: 3px 4px 5px rgba(80, 77, 77, 0.74);
+    text-align: center;
+}
+
+.adminlogin-self-para{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.form-self{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.email-label-self{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.signin-email-pacleholder{
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+    padding: 0.75rem/* 12px */;
+    border-radius: 0.5rem/* 8px */ !important;
+}
+
+.signin-password-placeholder{
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+    padding: 0.75rem/* 12px */;
+    border-radius: 0.5rem/* 8px */;
+}
+
+
+.password-label-self{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.button-self{
+    width: max-content !important;
+    margin-left: 40%;
+    background-color: rgba(10, 10, 10, 0.733) !important;
+}
+
+.button-self:hover{
+    background-color: rgba(10, 10, 10, 0.884) !important;
+}
+
+.adminlogin-error-handler{
+    margin-top: 1.25rem/* 20px */;
+       --tw-text-opacity: 1;
+    color: rgb(185 28 28 / var(--tw-text-opacity));
+}
